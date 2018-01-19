@@ -1,0 +1,57 @@
+body{
+	background: #333333
+}
+
+img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+
+.text{
+	animation: neon-animation 3s alternate infinite ease-out;
+}
+
+.box{
+	animation: box-animation 3s alternate infinite ease-out;
+}
+
+@keyframes neon-animation{
+	from{
+		filter: drop-shadow(0 0 0 #ff3366);
+		-webkit-filter: drop-shadow(0 0 0 #ff3366);
+		-moz-filter: drop-shadow(0 0 0 #ff3366);
+		-o-filter: drop-shadow(0 0 0 #ff3366);
+	}
+
+	to{
+		filter: drop-shadow(0 0 30px #ff3366);
+		-webkit-filter: drop-shadow(0 0 30px #ff3366);
+		-moz-filter: drop-shadow(0 0 30px #ff3366);
+		-o-filter: drop-shadow(0 0 30px #ff3366);
+	}
+}
+
+@keyframes box-animation{
+	from{
+		filter: drop-shadow(0 0 0 #ffbe8b);
+		-webkit-filter: drop-shadow(0 0 0 #ffbe8b);
+		-moz-filter: drop-shadow(0 0 0 #ffbe8b);
+		-o-filter: drop-shadow(0 0 0 #ffbe8b);
+	}
+
+	to{
+		filter: drop-shadow(0 0 30px #ffbe8b);
+		-webkit-filter: drop-shadow(0 0 30px #ffbe8b);
+		-moz-filter: drop-shadow(0 0 30px #ffbe8b);
+		-o-filter: drop-shadow(0 0 30px #ffbe8b);
+	}
+}
+
+
+@media (max-width: 768px){
+	img{
+		max-width: 90%;
+	}
+}
