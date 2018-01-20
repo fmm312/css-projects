@@ -1,0 +1,97 @@
+.thumbnail1, .thumbnail2, .thumbnail3 {
+	float: left;
+	margin: 10px;
+}
+
+
+/*-----------------
+	thumbnail 1
+ /*---------------*/
+.thumbnail1{
+	overflow: hidden;
+	max-width: 400px;
+	max-height: 246px;
+}
+
+.thumbnail1 img {
+	width: 100%;
+	transition: all .5s ease-out;
+}
+
+.thumbnail1 img:hover{
+	transform: scale(1.1);
+}
+
+.title-thumbnail1{
+	font-size: 20px;
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px #555555;
+	position: relative;
+	bottom: 40px;
+	left: 10px;
+	color: #ffffff;
+	background: rgba(0,0,0,.5);
+}
+
+
+
+/*-----------------
+	thumbnail 2
+ /*---------------*/
+ .thumbnail2{
+	overflow: hidden;
+	max-width: 400px;
+	max-height: 246px;
+}
+
+.thumbnail2 img {
+	width: 100%;
+	transition: all .5s ease-out;
+}
+
+.thumbnail2 img:hover{
+	filter: grayscale(95%);
+}
+
+.title-thumbnail1{
+	font-size: 20px;
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px #555555;
+	position: relative;
+	bottom: 40px;
+	left: 10px;
+	color: #ffffff;
+	background: rgba(0,0,0,.5);
+}
+
+
+
+/*-----------------
+	thumbnail 3
+ /*---------------*/
+ .thumbnail3{
+	overflow: hidden;
+	max-width: 400px;
+	max-height: 246px;
+}
+
+.thumbnail3 img {
+	width: 100%;
+	transition: all 1s ease-out;
+}
+
+.thumbnail3 img:hover{
+	transform: scale(1.5) rotate(12deg);
+}
+
+.title-thumbnail3{
+	font-size: 20px;
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px #555555;
+	position: relative;
+	bottom: 40px;
+	left: 10px;
+	color: #ffffff;
+	background: rgba(0,0,0,.5);
+}
+
