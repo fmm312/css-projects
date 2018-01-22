@@ -1,6 +1,6 @@
 # Pure CSS projects
 
-É um compilado de projetos de minha autorial, desenvolvidos apenas com CSS.
+É um compilado de projetos desenvolvidos com HTML e CSS.
 
 - Animações em thumbnails
 - Efeito Neon
