@@ -36,6 +36,8 @@
 
 .experience-box .experience-body h3{
   color: #0084bf;
+  font-weight: 400!important;
+  font-size: 23px;
 }  
 
 .experience-box .experience-body h5:before{
@@ -53,9 +55,9 @@
 
 .experience-box .experience-body .btn-view-more{
   padding: 8px 20px;
-  background-color: transparent;
-  color: rgba(85,85,85,.5);
-  border: 1px solid rgba(85,85,85,.5);
+  border: 1px solid #0084bf;
+  color: #ffffff;
+  background-color: #0084bf;
   border-radius: 2px;
   outline: none;
   font-weight: 400;
@@ -65,9 +67,9 @@
 }
 
 .experience-box .experience-body .btn-view-more:hover{
-  border: 1px solid #0084bf;
+  border: 1px solid rgba(0,132,191,.8);
   color: #ffffff;
-  background-color: #0084bf;
+  background-color: rgba(0,132,191,.8);
 }
 
 @media(max-width: 600px){
