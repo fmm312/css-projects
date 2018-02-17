@@ -5,6 +5,4 @@
 - Animações em thumbnails
 - Efeito Neon
 - Nice Form
-
-
-Em breve, vou postar mais :D
+- Cards
